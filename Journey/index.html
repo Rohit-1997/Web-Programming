@@ -1,105 +1,42 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 
 <html>
     <head>
-        <title>My Journey</title>
-        <link rel = "stylesheet" type="text/css" href="style.css"> 
+        <title>My home page</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <div id="header_div">
-            <h1>My MSIT Journey</h1>
-        </div> <!-- end of head_div-->
+        <!-- The nav bar -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a href="#" class="navbar-brand">MSIT</a>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarmenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Course Info</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Projects Done</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Sports page</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
 
-        <div id="about_div">
-            <img src="PASSPORT.JPG" width="10%" height="5%"/>
-            <h3>Introduction:</h3>
-            <p>
-                Hello, I am Rohit Kalori. Here are some of my academic detials and previous work experience
-            </p>
-            <h4>Education detials: </h4>
-            <ul>
-                <li>Masters: IIT-Hyderabad</li>
-                <li>Engineering: CVR College of Engineering</li>   
-            </ul>
-            <h4>Work details: </h4>
-            <ol>
-                <li>Worked as a software test engineer at DXC Technologies</li>
-                <li>Worked as a business development associate at Byjus</li>
-            </ol>
-        </div> <!-- End of about div-->
 
-
-        <div id="msit_div">
-            <h3>MSIT Courses offered and courses covered</h3>
-            <table>
-                <tr>
-                  <th>Course Name</th>
-                  <th>Course status</th>
-                </tr>
-                <tr>
-                  <td>Computational Thinking</td>
-                  <td>Cleared</td>
-                </tr>
-                <tr>
-                  <td>Computer Science principles & Programming-1</td>
-                  <td>Cleared</td>
-                </tr>
-                <tr>
-                  <td>Intro to Data Science</td>
-                  <td>Cleared</td>
-                </tr>
-                <tr>
-                  <td>Object Oriented Programming-JAVA</td>
-                  <td>Cleared</td>
-                </tr>
-                <tr>
-                  <td>ALgorithms and Data Structures-1</td>
-                  <td>Cleared</td>
-                </tr>
-                <tr>
-                  <td>Databases</td>
-                  <td>Cleared</td>
-                </tr>
-                <tr>
-                    <td>Software Engineering foundations</td>
-                    <td>Cleared</td>
-                </tr>
-                <tr>
-                    <td>ADS-2</td>
-                    <td>Cleared</td>
-                </tr>
-                <tr>
-                    <td>Intro to Operating Systems</td>
-                    <td>Cleared</td>
-                </tr>
-                <tr>
-                    <td>Computer Networks</td>
-                    <td>Cleared</td>
-                </tr>
-                <tr>
-                    <td>Cyber Security</td>
-                    <td>Cleared</td>
-                </tr>
-                <tr>
-                    <td>Software App Development</td>
-                    <td>In Progress</td>
-                </tr>
-              </table>
-        </div><!-- END of msit_div-->
-
-        <div id="contact_div">
-            <h4>FEEDBACK TIME!</h4>
-            <form>
-                <label id="email">Email</label>
-                <input type="text" id="email_text" placeholder="Your Email">
-                <br/>
-                <label id="Comments">Comments</label>
-                <input type="text" id="commets_text" placeholder="Your Comments">
-                <br/>
-                <input type="submit" value="Submit">
-            </form>
-        </div>
+        <!-- The bootstrap script files -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 
 </html>

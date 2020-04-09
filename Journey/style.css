@@ -1,2 +1,36 @@
+body {
+    background-color: #333;
+}
 
-  
+#navbarWrapper a {
+    color: #ffffff;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler {
+    border-color: #ffffff;
+}
+
+/*# styling the cover area of home page*/
+.cover-row{
+    text-align: center;
+    color: #ffffff;
+    justify-content: center;
+}
+
+.cover-row button {
+    color: #333333;
+    background-color: #ffffff;
+}
+
+.inner-cover {
+    margin-top: 400px;
+}
+
+.btn-info {
+    color: #333333;
+    background-color: #ffffff;
+}

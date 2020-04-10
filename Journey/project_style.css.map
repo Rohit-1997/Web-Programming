@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["project_saas.scss"],"names":[],"mappings":"AAIA;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;AACA;EACI,kBAtBI;EAuBJ;;;AAGJ;AAMI;EACI,OAhCI;;AAmCR;EACI,OApCI;;AAuCR;EACI,OAxCI","file":"project_style.css"}
+{"version":3,"sourceRoot":"","sources":["project_saas.scss"],"names":[],"mappings":"AAIA;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;;;AAGJ;EACI;EACA;;;AAGJ;EACI;;;AAIJ;EACI;EACA;EACA;;;AAGJ;AACA;EACI,kBAtCI;EAuCJ;;;AAGJ;AAMI;EACI,OAhDI;;AAmDR;EACI,OApDI;;AAuDR;EACI,OAxDI","file":"project_style.css"}

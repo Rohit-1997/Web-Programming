@@ -14,23 +14,13 @@ body {
     border-color: #ffffff;
 }
 
-/*# styling the cover area of home page*/
-.cover-row{
-    text-align: center;
-    color: #ffffff;
-    justify-content: center;
+/** Stryling the profile row **/
+.about-section {
+    color: #e9d6d6;
+    margin-top: 250px;
+    font-size: 25px;
 }
 
-.cover-row button {
-    color: #333333;
-    background-color: #ffffff;
-}
-
-.inner-cover {
-    margin-top: 400px;
-}
-
-.btn-info {
-    color: #333333;
-    background-color: #ffffff;
+.about-section h4 {
+    font-weight: bold;
 }

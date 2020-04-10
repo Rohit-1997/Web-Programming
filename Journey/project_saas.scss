@@ -1,3 +1,7 @@
+$color: #e9d6d6;
+$text-clor: rgb(53, 48, 48);
+
+
 body {
     background-color: #333;
 }
@@ -14,23 +18,27 @@ body {
     border-color: #ffffff;
 }
 
-/*# styling the cover area of home page*/
-.cover-row{
-    text-align: center;
-    color: #ffffff;
-    justify-content: center;
+/** inheritance use **/
+%body_style {
+    background-color: $color;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.cover-row button {
-    color: #333333;
-    background-color: #ffffff;
-}
+/** nesting data **/
+.jumbo-data {
+    div {
+        @extend %body_style;
+    }
 
-.inner-cover {
-    margin-top: 400px;
-}
+    h1 {
+        color: $text-clor;
+    }
 
-.btn-info {
-    color: #333333;
-    background-color: #ffffff;
+    p {
+        color: $text-clor;
+    }
+
+    ul {
+        color: $text-clor;
+    }
 }

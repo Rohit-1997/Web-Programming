@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Course Info</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="course_style.css"/>
+    </head>
+
+    <body>
+        <!-- The navbar -->
+        <div class="container-fluid"></div>
+            <div class="row navrow md-2">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-sm" id="navbarWrapper">
+                    <a href="index.html" class="navbar-brand">MSIT</a>
+                        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarmenu">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarmenu">
+                            <ul class="navbar-nav ml-auto" id="navbarList">
+                                <li class="nav-item">
+                                    <a href="about.html" class="nav-link">About me</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="courses.html" class="nav-link">Course Info</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="projects.html" class="nav-link">Projects Done</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+
+                <!-- This is the heading for the content of this page-->
+                <!-- The heading for the courses -->
+                <div class="row heading justify-content-center">
+                    <div class="col-12">
+                        <h2>Some of the Courses covered in this academic year</h2>
+                    </div>
+                </div> 
+                
+                <!-- The Carousel -->
+                <div class="row carousel-row justify-content-center">
+                    <div id="course-carousel" class="carousel slide" data-ride="carousel">
+                        <!-- carousel indicators -->
+                        <ol class="carousel-indicators">
+                            <li data-target="#course-carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#course-carousel" data-slide-to="1"></li>
+                            <li data-target="#course-carousel" data-slide-to="2"></li>
+                            <li data-target="#course-carousel" data-slide-to="3"></li>
+                            <li data-target="#course-carousel" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                             <div class="carousel-item active">
+                                 <img class="d-block img-fluid" src="images/python_img.jpg" alt="python slide">
+                                 <div class="carousel-caption">
+                                     <h3>Computer Science Principles and Programming</h3>
+                                     <p>This course covers fundemental concepts in CS along with a very popular introductory programming language called Python.</p>
+                                 </div>
+                             </div>
+
+                            <!-- data science slide -->
+                            <div class="carousel-item">
+                                <img class="d-block" src="images/data_science.jpg" alt="data-science slide">
+                                <div class="carousel-caption">
+                                    <h3>Introduction to data science</h3>
+                                    <p>This course introduces methods for five key facets of an investigation: data wrangling, cleaning, and sampling to get a suitable data set; data management to be able to access big data quickly and reliably; exploratory data analysis to generate hypotheses and intuition; prediction based on statistical methods such as regression and classification; and communication of results through visualization, stories, and interpretable summaries.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <!-- Java slide -->
+                            <div class="carousel-item">
+                                <img class="d-block" src="images/java.jpg" alt="Java slide">
+                                <div class="carousel-caption">
+                                    <h3>Object Oriented Programming with Java</h3>
+                                    <p>This course covers the object oriented concepts and fundamentals of Java programming</p>
+                                </div>
+                            </div>
+
+                            <!-- algorithms slide -->
+                            <div class="carousel-item">
+                                <img class="d-block" src="images/algorithms.jpg" alt="algorithms slide">
+                                <div class="carousel-caption">
+                                    <h3>Algorithms and Data Structures</h3>
+                                    <p>This course covers the essential information that we need to know about algorithms and data structures</p>
+                                </div>
+                            </div>
+
+                            <!-- database slide -->
+                            <div class="carousel-item">
+                                <img class="d-block" src="images/database.jpg" alt="Database slide">
+                                <div class="carousel-caption">
+                                    <h3>Databases</h3>
+                                    <p>This course covers the fundaments of DBMS</p>
+                                </div>
+                            </div>
+                            <!-- controllers -->
+                            <a class="carousel-control-prev" href="#course-carousel" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+
+                            <a class="carousel-control-next" href="#course-carousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                                <span class="sr-only">next</span>
+                            </a>
+                        </div>
+                    </div> 
+    
+                </div>
+                
+        </div>
+
+    <!-- The bootstrap script files -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+
+
+
+</html>

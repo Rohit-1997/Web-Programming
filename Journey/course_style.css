@@ -14,23 +14,14 @@ body {
     border-color: #ffffff;
 }
 
-/*# styling the cover area of home page*/
-.cover-row{
-    text-align: center;
+.heading {
     color: #ffffff;
-    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
-.cover-row button {
-    color: #333333;
-    background-color: #ffffff;
-}
-
-.inner-cover {
-    margin-top: 400px;
-}
-
-.btn-info {
-    color: #333333;
-    background-color: #ffffff;
+.carousel-inner img {
+    width: 1300px;
+    height: 700px;
 }
